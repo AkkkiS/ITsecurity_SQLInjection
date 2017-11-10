@@ -1,0 +1,68 @@
+.main > div {
+  display: inline-block;
+  width: 49%;
+  margin-top: 10px;
+}
+
+.two .register {
+  border: none;
+}
+.two .register h3 {
+  border-bottom-color: #909090;
+}
+.two .register .sep {
+  border-color: #909090;
+}
+
+.register {
+  width: 1000px;
+  margin: 10px auto auto 10px;
+  padding: 10px;
+  border: 7px solid #72B372;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 15px 0 #000000;
+}
+.register h3 {
+  margin: 0 15px 20px;
+  border-bottom: 2px solid #72B372;
+  padding: 5px 10px 5px 0;
+  font-size: 1.1em;
+}
+.register div {
+  margin: 0 0 0 10px;
+  border: none;
+}
+.register label {
+  display: inline-block;
+  width: 25%;
+  margin: 10px;
+}
+.register input[type=text], .register input[type=password] {
+  width: 65%;
+  font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+  padding: 5px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.07);
+}
+.register input[type=text]:focus, .register input[type=password]:focus {
+  background: #FFFFFF;
+}
+
+.register .sep {
+  border: 1px solid #72B372;
+  position: relative;
+  margin: 35px 20px;
+}
+.register .or {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  background: #F0F0F0;
+  text-align: center;
+  margin: -10px 0 0 -25px;
+  line-height: 20px;
+}
